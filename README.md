@@ -1,5 +1,12 @@
 # iOS_yhkim_fastcampus
 
+## Brief
+```
+Class : 수업자료 정리해둔 공간
+Homework : 제출한 과제 모아둔 공간
+Workspace : 프로젝트 관련자료 모아둔 공간
+```
+
 ### 1. Objective-C 기초
 
 - [D01(0919) 클래스 개념에 대해서]
