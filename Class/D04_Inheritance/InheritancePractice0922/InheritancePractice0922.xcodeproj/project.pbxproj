@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1484FD3E1D9369EA0061C3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD3D1D9369EA0061C3EA /* main.m */; };
+		1484FD461D9369F50061C3EA /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD451D9369F50061C3EA /* Wizard.m */; };
+		1484FD491D936A020061C3EA /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD481D936A020061C3EA /* Warrior.m */; };
+		1484FD4C1D936A070061C3EA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD4B1D936A070061C3EA /* Dog.m */; };
+		1484FD4F1D936A0C0061C3EA /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD4E1D936A0C0061C3EA /* Bird.m */; };
+		1484FD521D936A120061C3EA /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD511D936A120061C3EA /* Cat.m */; };
+		1484FD551D936D690061C3EA /* GameCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD541D936D690061C3EA /* GameCharacter.m */; };
+		1484FD581D9370D70061C3EA /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD571D9370D70061C3EA /* Animal.m */; };
+		1484FD5B1D93753B0061C3EA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD5A1D93753B0061C3EA /* Person.m */; };
+		1484FD5E1D9375B50061C3EA /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD5D1D9375B50061C3EA /* Student.m */; };
+		1484FD611D9375F20061C3EA /* UniversityStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD601D9375F20061C3EA /* UniversityStudent.m */; };
+		1484FD641D93786D0061C3EA /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD631D93786D0061C3EA /* Teacher.m */; };
+		1484FD6A1D93B79D0061C3EA /* PersianCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484FD691D93B79D0061C3EA /* PersianCat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1484FD381D9369EA0061C3EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1484FD3A1D9369EA0061C3EA /* InheritancePractice0922 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InheritancePractice0922; sourceTree = BUILT_PRODUCTS_DIR; };
+		1484FD3D1D9369EA0061C3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1484FD441D9369F50061C3EA /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wizard.h; path = ../Wizard.h; sourceTree = "<group>"; };
+		1484FD451D9369F50061C3EA /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Wizard.m; path = ../Wizard.m; sourceTree = "<group>"; };
+		1484FD471D936A020061C3EA /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Warrior.h; path = ../Warrior.h; sourceTree = "<group>"; };
+		1484FD481D936A020061C3EA /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Warrior.m; path = ../Warrior.m; sourceTree = "<group>"; };
+		1484FD4A1D936A070061C3EA /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dog.h; path = ../Dog.h; sourceTree = "<group>"; };
+		1484FD4B1D936A070061C3EA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dog.m; path = ../Dog.m; sourceTree = "<group>"; };
+		1484FD4D1D936A0C0061C3EA /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bird.h; path = ../Bird.h; sourceTree = "<group>"; };
+		1484FD4E1D936A0C0061C3EA /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bird.m; path = ../Bird.m; sourceTree = "<group>"; };
+		1484FD501D936A120061C3EA /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cat.h; path = ../Cat.h; sourceTree = "<group>"; };
+		1484FD511D936A120061C3EA /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cat.m; path = ../Cat.m; sourceTree = "<group>"; };
+		1484FD531D936D690061C3EA /* GameCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCharacter.h; sourceTree = "<group>"; };
+		1484FD541D936D690061C3EA /* GameCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCharacter.m; sourceTree = "<group>"; };
+		1484FD561D9370D70061C3EA /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		1484FD571D9370D70061C3EA /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		1484FD591D93753B0061C3EA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1484FD5A1D93753B0061C3EA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1484FD5C1D9375B50061C3EA /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1484FD5D1D9375B50061C3EA /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1484FD5F1D9375F20061C3EA /* UniversityStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversityStudent.h; sourceTree = "<group>"; };
+		1484FD601D9375F20061C3EA /* UniversityStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversityStudent.m; sourceTree = "<group>"; };
+		1484FD621D93786D0061C3EA /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		1484FD631D93786D0061C3EA /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		1484FD681D93B79D0061C3EA /* PersianCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersianCat.h; sourceTree = "<group>"; };
+		1484FD691D93B79D0061C3EA /* PersianCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersianCat.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1484FD371D9369EA0061C3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1484FD311D9369EA0061C3EA = {
+			isa = PBXGroup;
+			children = (
+				1484FD3C1D9369EA0061C3EA /* InheritancePractice0922 */,
+				1484FD3B1D9369EA0061C3EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1484FD3B1D9369EA0061C3EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1484FD3A1D9369EA0061C3EA /* InheritancePractice0922 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1484FD3C1D9369EA0061C3EA /* InheritancePractice0922 */ = {
+			isa = PBXGroup;
+			children = (
+				1484FD3D1D9369EA0061C3EA /* main.m */,
+				1484FD661D937ADD0061C3EA /* GameCharacters */,
+				1484FD651D937A670061C3EA /* Person to Teacher */,
+				1484FD671D937AE90061C3EA /* Animal to Cat */,
+			);
+			path = InheritancePractice0922;
+			sourceTree = "<group>";
+		};
+		1484FD651D937A670061C3EA /* Person to Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				1484FD591D93753B0061C3EA /* Person.h */,
+				1484FD5A1D93753B0061C3EA /* Person.m */,
+				1484FD5C1D9375B50061C3EA /* Student.h */,
+				1484FD5D1D9375B50061C3EA /* Student.m */,
+				1484FD5F1D9375F20061C3EA /* UniversityStudent.h */,
+				1484FD621D93786D0061C3EA /* Teacher.h */,
+				1484FD631D93786D0061C3EA /* Teacher.m */,
+				1484FD601D9375F20061C3EA /* UniversityStudent.m */,
+			);
+			name = "Person to Teacher";
+			sourceTree = "<group>";
+		};
+		1484FD661D937ADD0061C3EA /* GameCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				1484FD441D9369F50061C3EA /* Wizard.h */,
+				1484FD451D9369F50061C3EA /* Wizard.m */,
+				1484FD471D936A020061C3EA /* Warrior.h */,
+				1484FD481D936A020061C3EA /* Warrior.m */,
+				1484FD531D936D690061C3EA /* GameCharacter.h */,
+				1484FD541D936D690061C3EA /* GameCharacter.m */,
+			);
+			name = GameCharacters;
+			sourceTree = "<group>";
+		};
+		1484FD671D937AE90061C3EA /* Animal to Cat */ = {
+			isa = PBXGroup;
+			children = (
+				1484FD4A1D936A070061C3EA /* Dog.h */,
+				1484FD681D93B79D0061C3EA /* PersianCat.h */,
+				1484FD691D93B79D0061C3EA /* PersianCat.m */,
+				1484FD4B1D936A070061C3EA /* Dog.m */,
+				1484FD4D1D936A0C0061C3EA /* Bird.h */,
+				1484FD4E1D936A0C0061C3EA /* Bird.m */,
+				1484FD501D936A120061C3EA /* Cat.h */,
+				1484FD511D936A120061C3EA /* Cat.m */,
+				1484FD561D9370D70061C3EA /* Animal.h */,
+				1484FD571D9370D70061C3EA /* Animal.m */,
+			);
+			name = "Animal to Cat";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1484FD391D9369EA0061C3EA /* InheritancePractice0922 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1484FD411D9369EA0061C3EA /* Build configuration list for PBXNativeTarget "InheritancePractice0922" */;
+			buildPhases = (
+				1484FD361D9369EA0061C3EA /* Sources */,
+				1484FD371D9369EA0061C3EA /* Frameworks */,
+				1484FD381D9369EA0061C3EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InheritancePractice0922;
+			productName = InheritancePractice0922;
+			productReference = 1484FD3A1D9369EA0061C3EA /* InheritancePractice0922 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1484FD321D9369EA0061C3EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Nexus_MYT;
+				TargetAttributes = {
+					1484FD391D9369EA0061C3EA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1484FD351D9369EA0061C3EA /* Build configuration list for PBXProject "InheritancePractice0922" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1484FD311D9369EA0061C3EA;
+			productRefGroup = 1484FD3B1D9369EA0061C3EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1484FD391D9369EA0061C3EA /* InheritancePractice0922 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1484FD361D9369EA0061C3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1484FD641D93786D0061C3EA /* Teacher.m in Sources */,
+				1484FD521D936A120061C3EA /* Cat.m in Sources */,
+				1484FD551D936D690061C3EA /* GameCharacter.m in Sources */,
+				1484FD4F1D936A0C0061C3EA /* Bird.m in Sources */,
+				1484FD491D936A020061C3EA /* Warrior.m in Sources */,
+				1484FD611D9375F20061C3EA /* UniversityStudent.m in Sources */,
+				1484FD461D9369F50061C3EA /* Wizard.m in Sources */,
+				1484FD581D9370D70061C3EA /* Animal.m in Sources */,
+				1484FD6A1D93B79D0061C3EA /* PersianCat.m in Sources */,
+				1484FD5B1D93753B0061C3EA /* Person.m in Sources */,
+				1484FD5E1D9375B50061C3EA /* Student.m in Sources */,
+				1484FD4C1D936A070061C3EA /* Dog.m in Sources */,
+				1484FD3E1D9369EA0061C3EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1484FD3F1D9369EA0061C3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1484FD401D9369EA0061C3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1484FD421D9369EA0061C3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1484FD431D9369EA0061C3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1484FD351D9369EA0061C3EA /* Build configuration list for PBXProject "InheritancePractice0922" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1484FD3F1D9369EA0061C3EA /* Debug */,
+				1484FD401D9369EA0061C3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1484FD411D9369EA0061C3EA /* Build configuration list for PBXNativeTarget "InheritancePractice0922" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1484FD421D9369EA0061C3EA /* Debug */,
+				1484FD431D9369EA0061C3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1484FD321D9369EA0061C3EA /* Project object */;
+}
