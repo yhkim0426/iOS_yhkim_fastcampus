@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F1FEF91DAF5B600085F61D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F1FEF81DAF5B600085F61D /* main.m */; };
+		14F1FEFC1DAF5B600085F61D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F1FEFB1DAF5B600085F61D /* AppDelegate.m */; };
+		14F1FEFF1DAF5B600085F61D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F1FEFE1DAF5B600085F61D /* ViewController.m */; };
+		14F1FF021DAF5B600085F61D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF001DAF5B600085F61D /* Main.storyboard */; };
+		14F1FF041DAF5B600085F61D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF031DAF5B600085F61D /* Assets.xcassets */; };
+		14F1FF071DAF5B600085F61D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF051DAF5B600085F61D /* LaunchScreen.storyboard */; };
+		14F1FF6E1DAF71C30085F61D /* black_swan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF4F1DAF71C30085F61D /* black_swan.jpg */; };
+		14F1FF6F1DAF71C30085F61D /* buffalo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF501DAF71C30085F61D /* buffalo.jpg */; };
+		14F1FF701DAF71C30085F61D /* camel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF511DAF71C30085F61D /* camel.jpg */; };
+		14F1FF711DAF71C30085F61D /* cockatoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF521DAF71C30085F61D /* cockatoo.jpg */; };
+		14F1FF721DAF71C30085F61D /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF531DAF71C30085F61D /* dog.jpg */; };
+		14F1FF731DAF71C30085F61D /* donkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF541DAF71C30085F61D /* donkey.jpg */; };
+		14F1FF741DAF71C30085F61D /* duck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF551DAF71C30085F61D /* duck.jpg */; };
+		14F1FF751DAF71C30085F61D /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF561DAF71C30085F61D /* elephant.jpg */; };
+		14F1FF761DAF71C30085F61D /* emu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF571DAF71C30085F61D /* emu.jpg */; };
+		14F1FF771DAF71C30085F61D /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF581DAF71C30085F61D /* giraffe.jpg */; };
+		14F1FF781DAF71C30085F61D /* greater_rhea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF591DAF71C30085F61D /* greater_rhea.jpg */; };
+		14F1FF791DAF71C30085F61D /* guinea_pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF5A1DAF71C30085F61D /* guinea_pig.jpg */; };
+		14F1FF7A1DAF71C30085F61D /* hippopotamus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF5B1DAF71C30085F61D /* hippopotamus.jpg */; };
+		14F1FF7B1DAF71C30085F61D /* horse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF5C1DAF71C30085F61D /* horse.jpg */; };
+		14F1FF7C1DAF71C30085F61D /* koala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF5D1DAF71C30085F61D /* koala.jpg */; };
+		14F1FF7D1DAF71C30085F61D /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF5E1DAF71C30085F61D /* lion.jpg */; };
+		14F1FF7E1DAF71C30085F61D /* llama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF5F1DAF71C30085F61D /* llama.jpg */; };
+		14F1FF7F1DAF71C30085F61D /* manatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF601DAF71C30085F61D /* manatus.jpg */; };
+		14F1FF801DAF71C30085F61D /* meerkat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF611DAF71C30085F61D /* meerkat.jpg */; };
+		14F1FF811DAF71C30085F61D /* panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF621DAF71C30085F61D /* panda.jpg */; };
+		14F1FF821DAF71C30085F61D /* peacock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF631DAF71C30085F61D /* peacock.jpg */; };
+		14F1FF831DAF71C30085F61D /* pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF641DAF71C30085F61D /* pig.jpg */; };
+		14F1FF841DAF71C30085F61D /* platypus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF651DAF71C30085F61D /* platypus.jpg */; };
+		14F1FF851DAF71C30085F61D /* polar_bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF661DAF71C30085F61D /* polar_bear.jpg */; };
+		14F1FF861DAF71C30085F61D /* rhinoceros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF671DAF71C30085F61D /* rhinoceros.jpg */; };
+		14F1FF871DAF71C30085F61D /* seagull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF681DAF71C30085F61D /* seagull.jpg */; };
+		14F1FF881DAF71C30085F61D /* tasmania_devil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF691DAF71C30085F61D /* tasmania_devil.jpg */; };
+		14F1FF891DAF71C30085F61D /* whale_shark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF6A1DAF71C30085F61D /* whale_shark.jpg */; };
+		14F1FF8A1DAF71C30085F61D /* whale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF6B1DAF71C30085F61D /* whale.jpg */; };
+		14F1FF8B1DAF71C30085F61D /* wombat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF6C1DAF71C30085F61D /* wombat.jpg */; };
+		14F1FF8D1DAF743D0085F61D /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14F1FF8F1DAF743D0085F61D /* bear.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14F1FEF41DAF5B600085F61D /* (1013)TableViewAnimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "(1013)TableViewAnimal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F1FEF81DAF5B600085F61D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14F1FEFA1DAF5B600085F61D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14F1FEFB1DAF5B600085F61D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14F1FEFD1DAF5B600085F61D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14F1FEFE1DAF5B600085F61D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14F1FF011DAF5B600085F61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F1FF031DAF5B600085F61D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F1FF061DAF5B600085F61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14F1FF081DAF5B600085F61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F1FF4F1DAF71C30085F61D /* black_swan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_swan.jpg; sourceTree = "<group>"; };
+		14F1FF501DAF71C30085F61D /* buffalo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buffalo.jpg; sourceTree = "<group>"; };
+		14F1FF511DAF71C30085F61D /* camel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camel.jpg; sourceTree = "<group>"; };
+		14F1FF521DAF71C30085F61D /* cockatoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cockatoo.jpg; sourceTree = "<group>"; };
+		14F1FF531DAF71C30085F61D /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		14F1FF541DAF71C30085F61D /* donkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = donkey.jpg; sourceTree = "<group>"; };
+		14F1FF551DAF71C30085F61D /* duck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duck.jpg; sourceTree = "<group>"; };
+		14F1FF561DAF71C30085F61D /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elephant.jpg; sourceTree = "<group>"; };
+		14F1FF571DAF71C30085F61D /* emu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emu.jpg; sourceTree = "<group>"; };
+		14F1FF581DAF71C30085F61D /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giraffe.jpg; sourceTree = "<group>"; };
+		14F1FF591DAF71C30085F61D /* greater_rhea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greater_rhea.jpg; sourceTree = "<group>"; };
+		14F1FF5A1DAF71C30085F61D /* guinea_pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guinea_pig.jpg; sourceTree = "<group>"; };
+		14F1FF5B1DAF71C30085F61D /* hippopotamus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hippopotamus.jpg; sourceTree = "<group>"; };
+		14F1FF5C1DAF71C30085F61D /* horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse.jpg; sourceTree = "<group>"; };
+		14F1FF5D1DAF71C30085F61D /* koala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koala.jpg; sourceTree = "<group>"; };
+		14F1FF5E1DAF71C30085F61D /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
+		14F1FF5F1DAF71C30085F61D /* llama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = llama.jpg; sourceTree = "<group>"; };
+		14F1FF601DAF71C30085F61D /* manatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manatus.jpg; sourceTree = "<group>"; };
+		14F1FF611DAF71C30085F61D /* meerkat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meerkat.jpg; sourceTree = "<group>"; };
+		14F1FF621DAF71C30085F61D /* panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panda.jpg; sourceTree = "<group>"; };
+		14F1FF631DAF71C30085F61D /* peacock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peacock.jpg; sourceTree = "<group>"; };
+		14F1FF641DAF71C30085F61D /* pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pig.jpg; sourceTree = "<group>"; };
+		14F1FF651DAF71C30085F61D /* platypus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = platypus.jpg; sourceTree = "<group>"; };
+		14F1FF661DAF71C30085F61D /* polar_bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = polar_bear.jpg; sourceTree = "<group>"; };
+		14F1FF671DAF71C30085F61D /* rhinoceros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rhinoceros.jpg; sourceTree = "<group>"; };
+		14F1FF681DAF71C30085F61D /* seagull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seagull.jpg; sourceTree = "<group>"; };
+		14F1FF691DAF71C30085F61D /* tasmania_devil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tasmania_devil.jpg; sourceTree = "<group>"; };
+		14F1FF6A1DAF71C30085F61D /* whale_shark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whale_shark.jpg; sourceTree = "<group>"; };
+		14F1FF6B1DAF71C30085F61D /* whale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whale.jpg; sourceTree = "<group>"; };
+		14F1FF6C1DAF71C30085F61D /* wombat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wombat.jpg; sourceTree = "<group>"; };
+		14F1FF8E1DAF743D0085F61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/bear.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F1FEF11DAF5B600085F61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F1FEEB1DAF5B600085F61D = {
+			isa = PBXGroup;
+			children = (
+				14F1FEF61DAF5B600085F61D /* (1013)TableViewAnimal */,
+				14F1FEF51DAF5B600085F61D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F1FEF51DAF5B600085F61D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F1FEF41DAF5B600085F61D /* (1013)TableViewAnimal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F1FEF61DAF5B600085F61D /* (1013)TableViewAnimal */ = {
+			isa = PBXGroup;
+			children = (
+				14F1FEFA1DAF5B600085F61D /* AppDelegate.h */,
+				14F1FEFB1DAF5B600085F61D /* AppDelegate.m */,
+				14F1FEFD1DAF5B600085F61D /* ViewController.h */,
+				14F1FEFE1DAF5B600085F61D /* ViewController.m */,
+				14F1FF001DAF5B600085F61D /* Main.storyboard */,
+				14F1FF031DAF5B600085F61D /* Assets.xcassets */,
+				14F1FF051DAF5B600085F61D /* LaunchScreen.storyboard */,
+				14F1FF081DAF5B600085F61D /* Info.plist */,
+				14F1FF8C1DAF71C80085F61D /* Pictures */,
+				14F1FEF71DAF5B600085F61D /* Supporting Files */,
+			);
+			path = "(1013)TableViewAnimal";
+			sourceTree = "<group>";
+		};
+		14F1FEF71DAF5B600085F61D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14F1FEF81DAF5B600085F61D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14F1FF8C1DAF71C80085F61D /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				14F1FF8F1DAF743D0085F61D /* bear.jpg */,
+				14F1FF4F1DAF71C30085F61D /* black_swan.jpg */,
+				14F1FF501DAF71C30085F61D /* buffalo.jpg */,
+				14F1FF511DAF71C30085F61D /* camel.jpg */,
+				14F1FF521DAF71C30085F61D /* cockatoo.jpg */,
+				14F1FF531DAF71C30085F61D /* dog.jpg */,
+				14F1FF541DAF71C30085F61D /* donkey.jpg */,
+				14F1FF551DAF71C30085F61D /* duck.jpg */,
+				14F1FF561DAF71C30085F61D /* elephant.jpg */,
+				14F1FF571DAF71C30085F61D /* emu.jpg */,
+				14F1FF581DAF71C30085F61D /* giraffe.jpg */,
+				14F1FF591DAF71C30085F61D /* greater_rhea.jpg */,
+				14F1FF5A1DAF71C30085F61D /* guinea_pig.jpg */,
+				14F1FF5B1DAF71C30085F61D /* hippopotamus.jpg */,
+				14F1FF5C1DAF71C30085F61D /* horse.jpg */,
+				14F1FF5D1DAF71C30085F61D /* koala.jpg */,
+				14F1FF5E1DAF71C30085F61D /* lion.jpg */,
+				14F1FF5F1DAF71C30085F61D /* llama.jpg */,
+				14F1FF601DAF71C30085F61D /* manatus.jpg */,
+				14F1FF611DAF71C30085F61D /* meerkat.jpg */,
+				14F1FF621DAF71C30085F61D /* panda.jpg */,
+				14F1FF631DAF71C30085F61D /* peacock.jpg */,
+				14F1FF641DAF71C30085F61D /* pig.jpg */,
+				14F1FF651DAF71C30085F61D /* platypus.jpg */,
+				14F1FF661DAF71C30085F61D /* polar_bear.jpg */,
+				14F1FF671DAF71C30085F61D /* rhinoceros.jpg */,
+				14F1FF681DAF71C30085F61D /* seagull.jpg */,
+				14F1FF691DAF71C30085F61D /* tasmania_devil.jpg */,
+				14F1FF6A1DAF71C30085F61D /* whale_shark.jpg */,
+				14F1FF6B1DAF71C30085F61D /* whale.jpg */,
+				14F1FF6C1DAF71C30085F61D /* wombat.jpg */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F1FEF31DAF5B600085F61D /* (1013)TableViewAnimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F1FF0B1DAF5B600085F61D /* Build configuration list for PBXNativeTarget "(1013)TableViewAnimal" */;
+			buildPhases = (
+				14F1FEF01DAF5B600085F61D /* Sources */,
+				14F1FEF11DAF5B600085F61D /* Frameworks */,
+				14F1FEF21DAF5B600085F61D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "(1013)TableViewAnimal";
+			productName = "(1013)TableViewAnimal";
+			productReference = 14F1FEF41DAF5B600085F61D /* (1013)TableViewAnimal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F1FEEC1DAF5B600085F61D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Nexus_MYT;
+				TargetAttributes = {
+					14F1FEF31DAF5B600085F61D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14F1FEEF1DAF5B600085F61D /* Build configuration list for PBXProject "(1013)TableViewAnimal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F1FEEB1DAF5B600085F61D;
+			productRefGroup = 14F1FEF51DAF5B600085F61D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F1FEF31DAF5B600085F61D /* (1013)TableViewAnimal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F1FEF21DAF5B600085F61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F1FF071DAF5B600085F61D /* LaunchScreen.storyboard in Resources */,
+				14F1FF7F1DAF71C30085F61D /* manatus.jpg in Resources */,
+				14F1FF831DAF71C30085F61D /* pig.jpg in Resources */,
+				14F1FF861DAF71C30085F61D /* rhinoceros.jpg in Resources */,
+				14F1FF7D1DAF71C30085F61D /* lion.jpg in Resources */,
+				14F1FF8A1DAF71C30085F61D /* whale.jpg in Resources */,
+				14F1FF821DAF71C30085F61D /* peacock.jpg in Resources */,
+				14F1FF7B1DAF71C30085F61D /* horse.jpg in Resources */,
+				14F1FF891DAF71C30085F61D /* whale_shark.jpg in Resources */,
+				14F1FF8B1DAF71C30085F61D /* wombat.jpg in Resources */,
+				14F1FF871DAF71C30085F61D /* seagull.jpg in Resources */,
+				14F1FF7A1DAF71C30085F61D /* hippopotamus.jpg in Resources */,
+				14F1FF701DAF71C30085F61D /* camel.jpg in Resources */,
+				14F1FF8D1DAF743D0085F61D /* bear.jpg in Resources */,
+				14F1FF041DAF5B600085F61D /* Assets.xcassets in Resources */,
+				14F1FF7E1DAF71C30085F61D /* llama.jpg in Resources */,
+				14F1FF771DAF71C30085F61D /* giraffe.jpg in Resources */,
+				14F1FF7C1DAF71C30085F61D /* koala.jpg in Resources */,
+				14F1FF841DAF71C30085F61D /* platypus.jpg in Resources */,
+				14F1FF791DAF71C30085F61D /* guinea_pig.jpg in Resources */,
+				14F1FF6F1DAF71C30085F61D /* buffalo.jpg in Resources */,
+				14F1FF021DAF5B600085F61D /* Main.storyboard in Resources */,
+				14F1FF781DAF71C30085F61D /* greater_rhea.jpg in Resources */,
+				14F1FF721DAF71C30085F61D /* dog.jpg in Resources */,
+				14F1FF761DAF71C30085F61D /* emu.jpg in Resources */,
+				14F1FF851DAF71C30085F61D /* polar_bear.jpg in Resources */,
+				14F1FF881DAF71C30085F61D /* tasmania_devil.jpg in Resources */,
+				14F1FF711DAF71C30085F61D /* cockatoo.jpg in Resources */,
+				14F1FF751DAF71C30085F61D /* elephant.jpg in Resources */,
+				14F1FF741DAF71C30085F61D /* duck.jpg in Resources */,
+				14F1FF811DAF71C30085F61D /* panda.jpg in Resources */,
+				14F1FF801DAF71C30085F61D /* meerkat.jpg in Resources */,
+				14F1FF6E1DAF71C30085F61D /* black_swan.jpg in Resources */,
+				14F1FF731DAF71C30085F61D /* donkey.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F1FEF01DAF5B600085F61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F1FEFF1DAF5B600085F61D /* ViewController.m in Sources */,
+				14F1FEFC1DAF5B600085F61D /* AppDelegate.m in Sources */,
+				14F1FEF91DAF5B600085F61D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14F1FF001DAF5B600085F61D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F1FF011DAF5B600085F61D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14F1FF051DAF5B600085F61D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F1FF061DAF5B600085F61D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		14F1FF8F1DAF743D0085F61D /* bear.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F1FF8E1DAF743D0085F61D /* Base */,
+			);
+			name = bear.jpg;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F1FF091DAF5B600085F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14F1FF0A1DAF5B600085F61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F1FF0C1DAF5B600085F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "(1013)TableViewAnimal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nexus-MYT.-1013-TableViewAnimal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14F1FF0D1DAF5B600085F61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "(1013)TableViewAnimal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nexus-MYT.-1013-TableViewAnimal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F1FEEF1DAF5B600085F61D /* Build configuration list for PBXProject "(1013)TableViewAnimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F1FF091DAF5B600085F61D /* Debug */,
+				14F1FF0A1DAF5B600085F61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F1FF0B1DAF5B600085F61D /* Build configuration list for PBXNativeTarget "(1013)TableViewAnimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F1FF0C1DAF5B600085F61D /* Debug */,
+				14F1FF0D1DAF5B600085F61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F1FEEC1DAF5B600085F61D /* Project object */;
+}
