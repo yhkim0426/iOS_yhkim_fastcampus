@@ -13,4 +13,4 @@ results)
 Every app has exactly one instance of UIApplication (or, very rarely, a subclass of UIApplication). 
 When an app is launched, the system calls the UIApplicationMain function; 
 among its other tasks, this function creates a Singleton UIApplication object. 
-Thereafter you access the object by calling the sharedApplication class method.
+Thereafter you access the object by calling the sharedApplication class method. (Jihun)
