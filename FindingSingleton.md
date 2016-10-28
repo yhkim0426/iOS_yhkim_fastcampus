@@ -2,6 +2,7 @@
 Finding Singletons as many as you can!
 
 'format'
+
 '- class name: description. (finder)'
 
 ex)
