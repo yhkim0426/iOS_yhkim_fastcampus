@@ -1,7 +1,7 @@
 
 Finding Singletons as many as you can!
 
-<format>
+'format'
 - class name: description. (finder)
 
 ex)
