@@ -3,7 +3,7 @@ Finding Singletons as many as you can!
 
 ex)
 
-- class name: description. (finder)
+- class name: description. (finder's name)
 
 results)
 - UIScreen: UIScreen has a mainScreen 'singleton', which refers to the screen on your iPhone, iPad, whatever. 
