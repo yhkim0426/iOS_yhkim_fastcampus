@@ -17,3 +17,6 @@ Thereafter you access the object by calling the sharedApplication class method. 
 
 - NSFileManager, NSWorkspace, ~~UIApplication~~, UIAccelerometer, sharedFileManager, sharedColorPanel, sharedWorkspace: 
 Several Cocoa framework classes are **singletons**. They include **NSFileManager**, **NSWorkspace**, and, in UIKit, **UIApplication** and **UIAccelerometer**. The name of the factory method returning the singleton instance has, by convention, the form sharedClassType. Examples from the Cocoa frameworks are **sharedFileManager**, **sharedColorPanel**, and **sharedWorkspace**. (Self.name) - 6 checked
+
+- 서로 다른 클래스 객체간의 통신을 관리하는 객체
+  [NSNotificationCenter defaultCenter]; (이홍화) - 1 checked
