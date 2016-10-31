@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="T4P-vH-os6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ddu-04-ZdT">
+            <objects>
+                <viewController id="98r-OW-iO9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bxZ-NL-5uj"/>
+                        <viewControllerLayoutGuide type="bottom" id="MhD-P5-MPd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eUM-Pc-vvf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DFe-WV-xKD">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="FP1-Nw-Mm5">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="HgF-7N-96z"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rGw-Ju-ikz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-122" y="29"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6T3-4y-sqc">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Bva-21-chf" appends="YES" id="J1u-5O-BHK"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6T3-4y-sqc" secondAttribute="bottom" id="JrC-AB-mnz"/>
+                            <constraint firstAttribute="trailing" secondItem="6T3-4y-sqc" secondAttribute="trailing" id="TPS-ve-BjZ"/>
+                            <constraint firstItem="6T3-4y-sqc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bjO-LH-F4d"/>
+                            <constraint firstItem="6T3-4y-sqc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hEg-Se-rFE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="6T3-4y-sqc" id="bnX-Sr-NLT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Bva-21-chf">
+                    <connections>
+                        <action selector="onTabImageView:" destination="BYZ-38-t0r" id="Kfj-3Z-KXt"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="682" y="29"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QCx-EO-iX1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T4P-vH-os6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tF5-vU-r8W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="98r-OW-iO9" kind="relationship" relationship="rootViewController" id="O5h-dD-75L"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7zW-ba-xh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-828" y="29.23538230884558"/>
+        </scene>
+    </scenes>
+</document>
